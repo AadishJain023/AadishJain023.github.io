@@ -30,7 +30,7 @@ const stock = (stockName,callback) => {
             language: 'en'
         },
       headers: {
-        'x-rapidapi-key': '612ff06b6cmshb96096793cc790ep1cd8e9jsn95becb72b411',
+        'x-rapidapi-key': '3bb4dfe49bmsh7151205d7147236p10423fjsn447eb0073bec',
         'x-rapidapi-host': 'real-time-finance-data.p.rapidapi.com'
       }
     };
