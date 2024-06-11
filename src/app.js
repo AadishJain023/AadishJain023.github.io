@@ -2,6 +2,7 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 const stock = require('../src/utils/stock')
+const port = process.env.PORT || 3000
 
 const app = express()
 
