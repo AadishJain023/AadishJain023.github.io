@@ -28,7 +28,7 @@ weatherForm.addEventListener('submit', (e) => {
     const stock = search.value 
     console.log(stock)
 
-    fetch('https://stock-details-uyib.onrender.com/stock?stockName='+encodeURIComponent(stock)).then((response) => {
+    fetch('/stock?stockName='+encodeURIComponent(stock)).then((response) => {
         response.json().then((data) => {
             if(data.error){
                 messageTwo.textContent = data.error
